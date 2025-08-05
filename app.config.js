@@ -48,7 +48,13 @@ export default ({ config }) => ({
         projectId: "51680b19-190d-455a-8a17-e3247bc34025"
       }
     },
-    owner: "jungleer"
+    owner: "jungleer",
+    updates: {
+      url: "https://u.expo.dev/51680b19-190d-455a-8a17-e3247bc34025"
+    },
+    runtimeVersion: {
+      policy: "appVersion"
+    }
   }
 });
 
