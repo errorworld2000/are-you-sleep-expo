@@ -183,7 +183,7 @@ const HomePage = () => {
       <View style={styles.header}>
         <View>
           <Text style={styles.headerText}>Your Status:</Text>
-          <Text style={styles.statusText}>{status === 'awake' ? '😴 Awake' : '🤫 Asleep'}</Text>
+          <Text style={styles.statusText}>{status === 'awake' ? '😀 Awake' : '😴 Asleep'}</Text>
         </View>
         <Switch
           trackColor={{ false: '#767577', true: '#81b0ff' }}
