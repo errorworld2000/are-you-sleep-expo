@@ -20,6 +20,7 @@ export default ({ config }) => ({
       },
       googleServicesFile: process.env.GOOGLE_SERVICES_JSON ?? "./google-services.json",
       edgeToEdgeEnabled: true,
+      usesCleartextTraffic: true
     },
     web: {
       bundler: "metro",
