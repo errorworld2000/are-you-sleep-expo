@@ -82,5 +82,5 @@ const getAppName = () => {
     return 'areyousleep (Preview)';
   }
 
-  return 'areyousleep: Emoji Stickers';
+  return 'areyousleep';
 };
