@@ -72,6 +72,11 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
 
   const logout = async () => {
     console.log('[Auth] Logging out.');
+    try {
+        await api.put('/users/me/status', { status: '睡着' });
+    } catch (error) {
+        console.error('[Auth] Failed to update status on logout:', error);
+    }
     if (Platform.OS === 'web') {
       localStorage.removeItem('token');
     } else {
