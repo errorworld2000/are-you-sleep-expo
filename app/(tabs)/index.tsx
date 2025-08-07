@@ -165,7 +165,7 @@ const HomePage = () => {
         <View style={styles.friendInfo}>
           <Text style={styles.friendName}>{item.nickname || item.username}</Text>
           <Text style={styles.friendStatus}>
-            {item.status === 'awake' ? '😴 Awake' : '🤫 Asleep'}
+            {item.status === 'awake' ? '😀 Awake' : '🤫 Asleep'}
           </Text>
           {item.mood && <Text style={styles.friendMood}>Mood: {friendMood}</Text>}
         </View>
