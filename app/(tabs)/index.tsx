@@ -165,7 +165,7 @@ const HomePage = () => {
         <View style={styles.friendInfo}>
           <Text style={styles.friendName}>{item.nickname || item.username}</Text>
           <Text style={styles.friendStatus}>
-            {item.status === 'awake' ? '😴 Awake' : '🤫 Asleep'}
+            {item.status === 'awake' ? '😀 Awake' : '🤫 Asleep'}
           </Text>
           {item.mood && <Text style={styles.friendMood}>Mood: {friendMood}</Text>}
         </View>
@@ -183,7 +183,7 @@ const HomePage = () => {
       <View style={styles.header}>
         <View>
           <Text style={styles.headerText}>Your Status:</Text>
-          <Text style={styles.statusText}>{status === 'awake' ? '😴 Awake' : '🤫 Asleep'}</Text>
+          <Text style={styles.statusText}>{status === 'awake' ? '😀 Awake' : '😴 Asleep'}</Text>
         </View>
         <Switch
           trackColor={{ false: '#767577', true: '#81b0ff' }}
